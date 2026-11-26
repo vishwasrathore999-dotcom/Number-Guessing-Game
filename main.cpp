@@ -1,10 +1,10 @@
 
-#include <iostream>
+include <iostream>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
 
-int main() {
+int main() {hu
     srand(time(0));
 
     int secretNumber = rand() % 100 + 1;
@@ -34,4 +34,4 @@ int main() {
     } while (guess != secretNumber);
 
     return 0;
-}
+           }
